@@ -1,0 +1,164 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+.home{
+	color: black;
+    background-color: white;
+    border: 1.5px white solid;
+    border-radius: 15px;
+    padding: 30px 30px;
+    font-size: 16px;
+    font-family: DIN;
+}
+
+.home:hover{
+	opacity: 0.5;
+}
+
+#main-header{
+	font-family: Didot;
+	text-align: center;
+	font-size: 55px;
+	font-weight: lighter;
+	padding: 50px 100px;
+	padding-top: 30px;
+}
+
+
+/* Dropdown Button */
+.dropbtn {
+    color: black;
+    background-color: white;
+    border: 1.5px black solid;
+    border-radius: 15px;
+    padding: 10px 30px;
+    font-size: 16px;
+    font-family: DIN;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 50px;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    font-family: DIN;
+    font-weight: lighter;
+    padding:16px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+	background-color: black;
+	color: white;
+	}
+
+
+#colors{
+	background-color: rgb(240 240 240);
+	padding: 50px;
+	margin-bottom:20px; 
+	font-family: DIN Light;
+	text-align: center;
+	font-size: 15px;
+	font-weight: lighter;
+}
+
+
+#patterns{
+	background-color: rgb(240 240 240);
+	padding: 50px;
+	font-family: DIN Light;
+	text-align: center;
+	font-size: 15px;
+	font-weight: lighter;
+}
+
+#furniture-material-rugs-lighting{
+	background-color: rgb(240 240 240); 
+}
+
+#furniture-material-rugs-lighting .column {
+    float: left;
+    width: 25%;
+    text-align: justify;
+    box-sizing: border-box;
+    padding: 50px 35px;
+    font-family: DIN;
+    font-weight: lighter;
+}
+
+#window-floor-element{
+	background-color: rgb(240 240 240); 
+}
+
+#window-floor-element .column {
+    float: left;
+    width: 33%;
+    text-align: justify;
+    box-sizing: border-box;
+    padding: 50px 35px;
+    font-family: DIN;
+    font-weight: lighter;
+}
+
+
+#painting-accessories{
+	background-color: rgb(240 240 240); 
+}
+
+#painting-accessories .column {
+    float: left;
+    width: 50%;
+    text-align: justify;
+    box-sizing: border-box;
+    padding: 50px 35px;
+    font-family: DIN;
+    font-weight: lighter;
+}
+
+
+h2{
+	font-weight: bold;
+	font-family: DIN Light;
+	font-size: 22px;
+}
+
+
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.end{
+	line-height: 100px;
+}
