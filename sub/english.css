@@ -78,6 +78,12 @@
 	color: white;
 	}
 
+#main-photo{
+    display: block;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
 
 #colors{
 	background-color: rgb(240 240 240);
